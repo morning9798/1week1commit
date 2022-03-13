@@ -2,9 +2,7 @@
 
 ## <span style="color:yellow">1주일에 한번 한줄 코딩해서 Commit하기!</span> 💫
 
-
-<img width="176" alt="스크린샷 2022-03-13 오후 6 46 34" src="https://user-images.githubusercontent.com/92626903/158053943-5af28415-758b-493a-a60d-aeeaa23e80aa.png">
-  << 본인 Contribution(활동상태) 세로줄에 한번씩 초록색 칸막이가 뜨는지 Check ✔️ 할 예정 ‼️</span>
+<img width="14" alt="스크린샷 2022-03-13 오후 5 39 34" src="https://user-images.githubusercontent.com/92626903/158053968-b8f9df52-3e77-413b-89ad-48da260e245f.png">        << 본인 Contribution(활동상태) 세로줄에 한번씩 초록색 칸막이가 뜨는지 Check ✔️ 할 예정 ‼️</span>
 
 **학교 수업에서 배운내용을 복습하는식으로 코딩작성해도 되고, 본인이 관심있는 분야가 있어 스스로 코딩 작성해도 좋음**
 
