@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="/main.js"></script>
+    <!-- defer는 페이지를 읽고 가장 나중에 읽어주는 것 -->
+    <link rel="stylesheet" href="/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- var x, let(변수), const(상수 !=) 스코프:변수율선언하고 사용하는것 -->
+    <!-- 데이터형 Array, 객체선언, 이름없는 함수 -->
+    <!-- 조건문, 반복문 -->
+    <!-- Dom Api-->
+
+    <!-- 이벤트 작동 -->
+    <button class="over" id="open" onclick="showDetail()">상세보기</button>
+    <div class="detail" id="desc">
+        <p>보조설명</p>
+        <button onclick="hideDetail()">닫기</button>
+    </div>
+        
+    <script>
+        const btnView = document.querySelector('#open');
+        const showCont = document.querySelector('#desc');
+        const btnHide = document.querySelector('#close');
+        showCont.style.display = "none"
+        /*
+        let btnView = document.querySelector('#open');
+        let showCont = document.querySelector('#desc');
+        showCont.style.display = "none"
+        
+        // querySelector는 화면의 클래스, 아이디, 요소(html) 처음발견한 것을 찾음
+        // getElementById 등 값을 불러오지못하고 html요소만 불러온다.
+        function showDetail(){
+            showCont.style.display = "block";
+            btnView.style.display = "none";
+        }
+        // 되돌아가는 기능 - 어포던스의 기본
+        function hideDetail(){
+            showCont.style.display = "none";
+            btnView.style.display = "block";
+        }
+        */
+        btnView.addEventListener('click',function(){ // 31~45 주석해야함
+            showCont.style.display = "block";
+            btnView.style.display = "none";
+        });
+        btnHide.addEventListener('click',function(){ 
+            showCont.style.display = "none";
+            btnView.style.display = "block";
+        });
+    </script>
+</body>
+</html>
